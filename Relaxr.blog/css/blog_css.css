@@ -229,9 +229,43 @@ img {
 menu, ol, ul {
     padding: 0 0 0 0px;
 }
-.content-box p:first-letter { float: left; color: #121212; font-size: 90px; padding: 20px 10px 20px 0;}
+
+.content-box p:first-of-type:first-letter {float: left; color: #121212; font-size: 90px; padding: 20px 10px 20px 0;}
 
 a:hover { color: #606161;}
+
+/***********************
+/* Hidden text styles
+/***********************/
+
+span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  cursor: pointer;
+}
+
+span:hover {color: #606161;}
+
+/* About Relaxr hidden text*/
+#slideText-sidebar {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #033048;
+  margin: 0;
+}
+#learnLess {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+
 
 
 
